@@ -1,6 +1,5 @@
 //  CommentView.swift
 //  Created by hardik.darji on 3/17/18.
-//  Copyright © 2018 gatewaytechnolabs. All rights reserved.
 
 import UIKit
 
@@ -78,11 +77,7 @@ class CommentView: UIView, UITextViewDelegate {
     }
     private func commonInit()
     {
-        if let bundle = Bundle(identifier: "com.gatewaytechnolabs.customComment")
-        {
-            bundle.loadNibNamed("CommentView", owner: self, options: nil)
-        }
-        //Bundle.main.loadNibNamed("CommentView", owner: self, options: nil)
+        Bundle.main.loadNibNamed("CommentView", owner: self, options: nil)
         self.addSubview(self.contentView)
         self.contentView.frame = self.bounds
         self.contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]

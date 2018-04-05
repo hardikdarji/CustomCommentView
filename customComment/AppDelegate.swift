@@ -3,7 +3,6 @@
 //  customComment
 //
 //  Created by hardik.darji on 3/17/18.
-//  Copyright © 2018 gatewaytechnolabs. All rights reserved.
 //http://www.yudiz.com/creating-your-own-ios-framework-and-distributed-using-cocoapods/
 
 import UIKit

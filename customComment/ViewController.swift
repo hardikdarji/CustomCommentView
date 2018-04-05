@@ -3,8 +3,6 @@
 //  customComment
 //
 //  Created by hardik.darji on 3/17/18.
-//  Copyright © 2018 gatewaytechnolabs. All rights reserved.
-//
 
 import UIKit
 class CommentCell: UITableViewCell {
