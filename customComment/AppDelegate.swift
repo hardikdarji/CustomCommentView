@@ -3,8 +3,6 @@
 //  customComment
 //
 //  Created by hardik.darji on 3/17/18.
-//http://www.yudiz.com/creating-your-own-ios-framework-and-distributed-using-cocoapods/
-
 import UIKit
 
 @UIApplicationMain
